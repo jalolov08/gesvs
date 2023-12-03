@@ -1,0 +1,99 @@
+.banner {
+  position: relative;
+  background-image: url("../../assets/dengi.jpg");
+  height: 600px;
+  padding: 0px 9.375em;
+  padding-top: 150px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+}
+.banner_content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.small_title {
+ 
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #ff7255;
+}
+.main_title {
+  margin: 0;
+  font-size: 5.2em;
+  font-weight: 800;
+}
+.description {
+  
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgb(28, 25, 25);
+}
+.apply_btn {
+  padding: 0.75em 3.1875em;
+  background-color: #559aff;
+  color: #fffefe;
+
+  font-size: 0.875em;
+  border: 2px solid #559aff;
+
+  border-radius: 0.1875em;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.apply_btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.apply_btn:hover {
+  color: #559aff;
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #559aff;
+  cursor: pointer;
+}
+
+.apply_btn:hover::before {
+  transform: translateY(0);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+

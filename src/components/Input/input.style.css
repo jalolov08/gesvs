@@ -1,0 +1,22 @@
+.custom_input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.6875em;
+  }
+  
+  .input {
+    width: 100%;
+  
+    color: #757575;
+    font-size: 1em;
+    outline: none;
+  
+    padding: 0.96875em 0.8125em;
+  }
+  .input_label {
+    color: #333333;
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-bottom: 0.7125em;
+  }
+  
