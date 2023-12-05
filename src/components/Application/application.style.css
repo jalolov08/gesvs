@@ -1,0 +1,57 @@
+.application {
+    padding: 0px 9.375em;
+    background-color: #f1f5f8;
+  }
+  .application_title {
+    width: 40%;
+   margin: 0px;
+   padding-top: 90px;
+    text-align: start;
+    font-size: 33application_contpx;
+    font-weight: 600;
+  }
+  .app_cont {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .application_cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .app_img{
+    width: 90%;
+    height: 50%;
+  }
+  @media only screen and (max-width: 430px) {
+    .application {
+      padding: 0em 0.8em;
+    }
+    .application_title {
+      width: 100%;
+    }
+    .app_cont {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .application {
+      padding: 0px 1.5625em;
+    }
+  }
+  
+  @media only screen and (min-width: 1920px) {
+    .application {
+      padding: 0px 24.375em;
+    }
+  }
+  @media only screen and (min-width: 2048px) {
+    .application {
+      padding: 0px 35.575em;
+    }
+  }
+  

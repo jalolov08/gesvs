@@ -3,7 +3,7 @@ import "./form.style.css";
 import Input from "../Input/input.component";
 import Checkbox from "../CheckBox/checkbox.component";
 
-export default function Form({ index }) {
+export default function Form({ index , color }) {
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
   const [loanAmount, setLoanAmount] = useState("");
@@ -87,7 +87,7 @@ export default function Form({ index }) {
 
 
   return (
-    <div className="form" style={{ zIndex: index }}>
+    <div className="form" style={{ zIndex: index , backgroundColor:color}}>
       <div style={{ padding: "2.875em" }}>
         <Input
           placeholder="Иван"

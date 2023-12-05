@@ -87,7 +87,7 @@ export default function Header() {
           </button>
         </animated.ul>
         {isMobileMenuOpen ? (
-          <FontAwesomeIcon icon={faTimes} className="menu_icon" onClick={toggleMobileMenu} />
+           <FontAwesomeIcon icon={faTimes} className="menu_icon" onClick={toggleMobileMenu} />
         ) : (
           <FontAwesomeIcon icon={faBars} className="menu_icon" onClick={toggleMobileMenu} />
         )}

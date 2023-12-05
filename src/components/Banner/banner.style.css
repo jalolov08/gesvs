@@ -26,7 +26,6 @@
   z-index: 2;
 }
 .small_title {
- 
   font-size: 1.2em;
   font-weight: 700;
   color: #ff7255;
@@ -37,7 +36,6 @@
   font-weight: 800;
 }
 .description {
-  
   text-transform: uppercase;
   font-size: 1.2em;
   font-weight: 800;
@@ -95,5 +93,39 @@
   align-items: center;
   z-index: 100;
 }
+.modal-content{
+  width: 25%;
+}
+@media screen and (max-width: 430px) {
+  .banner {
+    margin: 0;
+    padding: 10em 0.8em;
+    height: 350px;
+  }
+  .main_title {
+    font-size: 32px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .modal-content{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner {
+    padding: 9em 1.5625em;
+  }
+}
 
+@media only screen and (min-width: 1920px) {
+  .banner {
+    padding: 5em 24.375em;
+  }
+}
 
+@media only screen and (min-width: 2048px) {
+  .banner {
+    padding: 0px 35.575em;
+  }
+}
