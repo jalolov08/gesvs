@@ -67,7 +67,7 @@
     transition: 0.3 ease-in;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
   .reviews {
     padding: 0em 0.8em;
   }
@@ -82,5 +82,17 @@
   }
   .review_text{
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .reviews{
+    padding: 2em 1.5625em;
+
+  }
+  .review_author{
+    font-size: 18px;
+  }
+  .review_text{
+    font-size: 14px;
   }
 }

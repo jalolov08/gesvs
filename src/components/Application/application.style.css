@@ -26,7 +26,7 @@
     width: 90%;
     height: 50%;
   }
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 432px) {
     .application {
       padding: 0em 0.8em;
     }
